@@ -33,6 +33,7 @@ int binary_search(std::vector<int> nums, int key)
 int main()
 {
     std::vector<int> my_nums = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    int my_key = binary_search(my_nums, 7);
+    int my_key = binary_search(my_nums, 10);
+
     std::cout << my_key;
 }
